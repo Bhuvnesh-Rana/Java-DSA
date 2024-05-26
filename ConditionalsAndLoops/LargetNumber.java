@@ -9,6 +9,9 @@ public class LargetNumber {
 
             
             int num = sc.nextInt();
+            if (num>1) {
+                
+            
             int a[] = new int[num];
 
             for(int i=0;i<num;i++){
@@ -29,6 +32,9 @@ public class LargetNumber {
             }
             System.out.println("Maximum number is: "+max);
         }
+        else
+            System.out.println("Enter no. greater than 1");
+    }
         System.out.println("Using math class.");
         int max1 = Math.max(24, Math.max(30, 67));
         System.out.println("Maximum using math class: "+max1);
