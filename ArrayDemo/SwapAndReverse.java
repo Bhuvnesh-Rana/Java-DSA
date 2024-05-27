@@ -2,7 +2,7 @@ package ArrayDemo;
 
 import java.util.Arrays;
 
-public class Swap {
+public class SwapAndReverse {
     public static void main(String[] args) {
         int a[]={1,2,4,7,5,9,22,14};
         System.out.println("Before swap: "+Arrays.toString(a));
