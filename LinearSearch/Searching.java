@@ -1,4 +1,4 @@
-package ArrayDemo;
+package LinearSearch;
 
 public class Searching {
     public static void main(String[] args) {

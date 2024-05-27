@@ -1,4 +1,4 @@
-package ArrayDemo;
+package LinearSearch;
 
 
 public class MaximumWealth {
