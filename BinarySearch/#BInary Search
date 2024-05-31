@@ -1,0 +1,34 @@
+Binary search is one of the searching techniques applied when the input is sorted here we are focusing on finding the middle element that acts
+as a reference frame whether to go left or right to it as the elements are already sorted. This searching helps in optimizing the search 
+technique with every iteration is referred to as binary search and readers do stress over it as it is indirectly applied in solving questions.
+
+Binary Search Algorithm in Java
+
+Below is the Algorithm designed for Binary Search:
+
+        Start
+        Take input array and Target
+        Initialise start = 0 and end = (array size -1)
+        Intialise mid variable
+        mid = (start+end)/2
+        if array[ mid ] == target then return mid
+        if array[ mid ] < target then start = mid+1
+        if array[ mid ] > target then end = mid-1
+        if start<=end then goto step 5
+        return -1 as Not element found
+        Exit
+
+        Methods for Java Binary Search
+
+There are three methods in Java to implement Binary Search in Java are mentioned below:
+        
+    Iterative Method
+    Recursive Method
+    Inbuild Method
+
+
+
+    Time complexity: O(log N)
+    Auxiliary space: O(1)
+
+        
