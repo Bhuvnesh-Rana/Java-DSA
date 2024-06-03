@@ -1,3 +1,4 @@
+//WHEN YOU DON'T KNOW THE ORDER OF SORTED ARRAY(ASC. OR DESC.)
 public class OrderAgnosticBS {
     public static void main(String[] args) {
         int a[]={44,30,25,22,16,10,4};      //desc array
@@ -37,7 +38,7 @@ public class OrderAgnosticBS {
                 }
         }
     }
-    return 1234;
+    return -1;
     }
 
 }
