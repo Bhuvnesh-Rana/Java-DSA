@@ -1,4 +1,4 @@
-public class floorOfANumber {
+public class FloorOfANumber {
     public static void main(String[] args) {
         int a[]={4,10,16,24,33,49,50};
         int target = 15;
