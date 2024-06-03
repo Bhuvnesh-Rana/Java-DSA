@@ -28,20 +28,20 @@ public class SwitchStatements {
             System.out.println("Enter place: ");
             String place = sc.nextLine();
 
-            //ENHANCED SWITH.
-            switch(place){
-                case "Chd" -> System.out.println("Best place");
-                case "Bglor" -> System.out.println("IT");
-                default -> System.out.println("not in db.");
-            }
+            //ENHANCED SWITH. JAVA 14 ONWARDS.
+            // switch(place){
+            //     case "Chd" -> System.out.println("Best place");
+            //     case "Bglor" -> System.out.println("IT");
+            //     default -> System.out.println("not in db.");
+            // }
 
             System.out.print("Enter day of the week: ");
             int dayOfWeek = sc.nextInt();
-            switch(dayOfWeek){                                                  //Similar to :
-                case 1, 2, 3, 4, 5 -> System.out.println("Weekday");          //case 1:
-                case 6,7 -> System.out.println("Weekday");                    //case 2:
-                                                                                //case 3: body
-            }
+            // switch(dayOfWeek){                                                  //Similar to :
+            //     case 1, 2, 3, 4, 5 -> System.out.println("Weekday");          //case 1:
+            //     case 6,7 -> System.out.println("Weekday");                    //case 2:
+            //                                                                     //case 3: body
+            // }
         }
     }
 }

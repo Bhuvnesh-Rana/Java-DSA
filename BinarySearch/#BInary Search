@@ -28,8 +28,8 @@ There are three methods in Java to implement Binary Search in Java are mentioned
     Inbuild Method
 
 
-
-    Time complexity: O(log N)
+    Time complexity:O(1) best case
+    Time complexity: O(log N) worsrt case
     Auxiliary space: O(1)
 
         
