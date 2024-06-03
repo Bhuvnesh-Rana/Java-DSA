@@ -1,5 +1,5 @@
 Linear search is used to search a key element from multiple elements. Linear search is less used today because it is slower than binary search and hashing.
-
+It travesrse the entire array to fing the targer element.(N comparisons -> N(no. of elements.))
 Algorithm:
 
     Step 1: Traverse the array
