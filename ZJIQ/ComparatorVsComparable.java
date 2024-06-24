@@ -1,4 +1,4 @@
-package zJIQ;
+package ZJIQ;
 
 import java.util.ArrayList;
 import java.util.Collections;

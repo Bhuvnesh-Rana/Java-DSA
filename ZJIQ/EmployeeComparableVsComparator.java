@@ -1,4 +1,4 @@
-package zJIQ;
+package ZJIQ;
 
 public class EmployeeComparableVsComparator {
     private int id;

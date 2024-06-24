@@ -1,4 +1,4 @@
-package zJIQ;
+package ZJIQ;
 
 public class SumOfArrayElementsEqualToK {
     public static void main(String[] args) {
